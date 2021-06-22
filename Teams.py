@@ -2,7 +2,7 @@ import pyautogui
 import time
 import os
 
-#os.system(os.environ['USERPROFILE'] + "\\AppData\\Local\\Microsoft\\Teams\\Update.exe --processStart \"Teams.exe\"")
+os.system(os.environ['USERPROFILE'] + "\\AppData\\Local\\Microsoft\\Teams\\Update.exe --processStart \"Teams.exe\"")
 
 pyautogui.getWindowsWithTitle("Teams")[0].maximize()
 
